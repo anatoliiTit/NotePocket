@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+#layout{
+    width: 700px;
+    height: 1000px;
+    background: rgb(246, 148, 250);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+#menu{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 75px;
+    background: rgb(230, 56, 230);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#menu a button{
+    height: 37px;
+    width: 75px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background: darkgray;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+select{
+    margin-left: 15px;
+    width: 75px;
+    height: 30px;
+}
+
+#menu button{
+    height: 37px;
+    width: 75px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background: darkgray;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+#menu a button:hover{
+    background: gray;
+    transition: 0.3s;
+}
+#menu button:hover{
+    background: gray;
+    transition: 0.3s;
+}
+#noteStorage-layout{
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    height:905px;
+    width: 690px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+#noteStorage{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+#noteLayout{
+    display: flex;
+    flex-direction: column;
+    height:905px;
+    padding: 5px 5px 5px 5px;
+}
+#noteTitle{
+    margin-bottom: 5px;
+}
+#note{
+    height: 100%;
+}
+
+#noteView{
+    width: 670px;
+    height: 200px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-Direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px 5px 5px;
+    background: darkorange;
+    border-radius: 5px;
+}
+
+#noteViewTitleAndDateHolder{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#noteViewTitleHolder{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#noteViewDateHolder{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+#noteViewTitle{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+}
+
+#noteViewText{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    background: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+    flex-direction: center;
+    overflow: scroll;
+}
+
+#noteViewDate{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+}
+
+#important-notes{
+    background: whitesmoke;
+    width: 690px;
+    display: flex;
+    flex-direction: column-reverse;
+}
